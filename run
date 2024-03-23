@@ -1,0 +1,4 @@
+# !/usr/bin/bash
+#rm -rf test train validation
+python3 $1 >&1 | tee $2.log
+python3 $3 >&1 | tee $4.log
